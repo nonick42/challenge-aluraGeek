@@ -4,7 +4,12 @@
 }
 
 .header {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5300C8;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 5px solid #c2c2c2;
 }
 
 .header__figure {
@@ -16,7 +21,8 @@
 }
 
 .header__title {
-
+    font-size: 24px;
+    font-family: "Press Start 2P", sans-serif;
 }
 
 .main {
